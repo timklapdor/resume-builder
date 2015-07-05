@@ -1,0 +1,18 @@
+# Site settings
+name: Tim Klapdor # your name
+header-image: images/home-bg.jpg # image in header
+tagline: "Technology | Design | Education" # your personal tagline 
+city: Wagga Wagga # your city
+country: Australia # your country
+email: tim.klapdor@gmail.com # your email address
+twitter_name: timklapdor # your twitter handle
+github_name:  timklapdor # your github name
+baseurl: "/resume" #base url
+url: # "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 15
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
