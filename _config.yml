@@ -1,7 +1,7 @@
 # Site settings
-name: Tim Klapdor # your name
+name: "Tim Klapdor" # your name
+description: "Technology | Design | Education" # your personal tagline 
 header-image: images/tim-hd.jpg # image in header
-tagline: "Technology | Design | Education" # your personal tagline 
 city: Wagga Wagga # your city
 country: Australia # your country
 email: tim.klapdor@gmail.com # your email address
