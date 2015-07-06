@@ -513,11 +513,12 @@ section {
 }
 
 #header {
-    background-image: url(/images/silicon-valley.jpg);
+    background-image: url(/images/tim-hd.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     min-height: 100vh;
     position: relative;
     color: #fff;
