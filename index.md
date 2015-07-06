@@ -1,8 +1,7 @@
 ---
 
 layout: default
-Name: Tim Klapdor
-Tagline: "Technology | Design | Education"
+title: Tim Klapdor
 
 ---
 
