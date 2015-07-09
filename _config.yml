@@ -16,6 +16,7 @@ collection:
  - interests:
  - portfolio:
  - publications:
+ - profile:
 
 # Build settings
 markdown: kramdown

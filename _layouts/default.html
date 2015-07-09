@@ -79,8 +79,8 @@
     </div>
     </div>
 
-{% for experience in site.expeience %}
     <div class="container">
+{% for experience in site.expeience %}
     <div class="row">
             <div class="five columns">
                 <h2 class="date">{{ experience.period }}</h2>
@@ -89,12 +89,12 @@
         <div class="seven columns">
         <h3>{{ experience.title }}</h3>
             {{ experience.content }}
-    </div> 
-    </div>
-
-        
+        </div> 
     </div>
 {% endfor %}
+        
+    </div>
+
    
 </section>    
 
@@ -115,7 +115,7 @@
                 <h4 class="institution">{{education.institution }}</h4>
             </div>
          <div class="seven columns">
-            <h3>{{ education.qualification }}</h3>
+            <h3>{{ education.title }}</h3>
         </div>
     </div>
  
@@ -141,7 +141,7 @@
                 <h4 class="institution">{{ awards.issuer }}</h4>
             </div>
          <div class="seven columns">
-            <h3>{{ awards.title</h3>
+            <h3>{{ awards.title }}</h3>
         </div>
     </div>
 {% endfor %}    
@@ -170,7 +170,7 @@
         
         <p class="authors">{{ publications.authors }}</p>
             
-        {{ publications.content}}
+        {{ publications.content }}
         <p><a href="{{ publications.link }}" class="button button-primary">Download</a></p>
         </div>
     </div>
