@@ -10,7 +10,7 @@ github_name:  timklapdor # your github name
 baseurl: # "" base url
 url: # "http://yourdomain.com"
 
-collection:
+collections:
  - education: 
  - experience:
  - interests:
