@@ -49,7 +49,7 @@
 
 
     
-    {% for profile in site.profile %}
+{% for profile in site.profile %}
         <div class="row">
             <div class="five columns">
                 <ul class="personal-details">
@@ -108,14 +108,14 @@
 
     
     <div class="container">
-{% for experience in site.education %}
+{% for education in site.education %}
     <div class="row">
             <div class="five columns">
                 <h2 class="date">{{ education.period }}</h2>
                 <h4 class="institution">{{education.institution }}</h4>
             </div>
          <div class="seven columns">
-            <h3>{{ education.qualification }}</h3>
+            <h3>{{ education.title }}</h3>
         </div>
     </div>
  
@@ -133,7 +133,7 @@
     
     <div class="container">
 
-{% for experience in site.awards %}
+{% for awards in site.awards %}
 
     <div class="row">  
         <div class="five columns">
@@ -159,7 +159,7 @@
     </div>
     
     <div class="container">
-{% for experience in site.publications %}        
+{% for publications in site.publications %}        
     <div class="row">  
         <div class="five columns">
                 <h2 class="date">{{ publications.date }}</h2>
@@ -190,7 +190,7 @@
     </div>
     
     <div class="container">
- {% for experience in site.skills %}        
+ {% for sklls in site.skills %}        
     <div class="row">  
         {% for work in skills.skills %}
         <div class="four columns">
@@ -214,7 +214,7 @@
     <div class="container">
         
     <div class="row">
-{% for experience in site.interests %}
+{% for interests in site.interests %}
         {% for work in interest.skills %}
         <div class="four columns">
             <h5>{{ skills.title }}</h5>

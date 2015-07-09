@@ -10,17 +10,15 @@ github_name:  timklapdor # your github name
 baseurl: # "" base url
 url: # "http://yourdomain.com"
 
-collections:
-- education:
-- experience:
-- profile:
-- publications:
-- portfolio:
-- skills:
+collection:
+ - education: 
+ - experience:
+ - interests:
+ - portfolio:
+ - publications:
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 15
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
