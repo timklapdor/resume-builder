@@ -1,7 +1,7 @@
 ---
 
-Date: Nov 2012
-Issuer: Australia and New Zealand Mobile Learning Group
-Title: "Best Project Award 2012"
+date: Nov 2012
+issuer: Australia and New Zealand Mobile Learning Group
+title: "Best Project Award 2012"
 
 ---

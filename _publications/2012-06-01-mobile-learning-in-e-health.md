@@ -1,10 +1,10 @@
 ---
 
-Title: "Mobile Learning in eHealth: Increasing Learning Options by Supporting the Mobility of Learners in Developing Contexts"
-Authors: "Philip Uys, James Brann, Tim Klapdor, Megan Smith"
-Publisher: Gold e-Book ehealth and tele-education, University Hospital Pedro Ernesto of State University of Rio de Janeiro
-Date: Jun 2012
-Link: http://www.telessaude.uerj.br/goldbook
+title: "Mobile Learning in eHealth: Increasing Learning Options by Supporting the Mobility of Learners in Developing Contexts"
+authors: "Philip Uys, James Brann, Tim Klapdor, Megan Smith"
+publisher: Gold e-Book ehealth and tele-education, University Hospital Pedro Ernesto of State University of Rio de Janeiro
+date: Jun 2012
+link: "http://www.telessaude.uerj.br/goldbook"
 
 ---
 

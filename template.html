@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Tim Klapdor - TECHNOLOGY | DESIGN | EDUCATION </title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section class="u-full-width" id="header" style="-webkit-transform: translate3d(0px, 0px, 0px) opacity: 1;">
+
+    <div class="site-title">
+        <h1 class="title">Tim Klapdor</h1>
+        <p class="tagline">Technology | Design | Education</p>
+    </div> 
+</section>
+<section class="container" id="bio">
+
+<div class="container" align="center">  
+<div class="headline">
+        <p><span>Who Am I?</span></p>
+        <h2>Personal Details</h2>
+</div> 
+</div>  
+
+
+    
+    {% for profile in site.profile %}
+        <div class="row">
+            <div class="five columns">
+                <ul class="personal-details">
+                    <li><strong>Name </strong>{{ profile.name }}</li>
+                    <li><strong>Location </strong>{{ profile.location }}</li>
+                    <li><strong>Country </strong>{{ profile.country }}</li>
+                    <li><strong>Email </strong><a href="mailto:"{{ profile.email }}>{{ profile.email }}</a></li>
+                    <li><strong>Twitter </strong><a href="https://twitter.com/{{ profile.twitter }}">@timklapdor</a></li>
+                </ul>
+            </div>
+            
+            <div class="seven columns">
+        <h3>Professional Profile</h3>
+        {{ profile.content }}
+    </div>
+    </div>
+    {% endfor %}
+    
+</section>
+    
+<section class="u-full-width" id="experience"> 
+   
+    <div class="container" align="center">  
+    <div class="headline" align="center">
+        <p><span>Professional Background</span></p>
+        <h2>Work Experience</h2>
+    </div>
+    </div>
+
+{% for experience in site.expeience %}
+    <div class="container">
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">{{ experience.period }}</h2>
+                <h4 class="employer">{{ experience.employer }}</h4>
+        </div>
+        <div class="seven columns">
+        <h3>{{ experience.title }}</h3>
+            {{ experience.content }}
+    </div> 
+    </div>
+
+        
+    </div>
+{% endfor %}
+   
+</section>    
+
+<section class="u-full-width" id="education"> 
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+            <p><span>Learning &amp; Training</span></p>
+            <h2>Education</h2>
+        </div>
+    </div>
+
+    
+    <div class="container">
+{% for experience in site.education %}
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">{{ education.period }}</h2>
+                <h4 class="institution">{{education.institution }}</h4>
+            </div>
+         <div class="seven columns">
+            <h3>{{ education.qualification }}</h3>
+        </div>
+    </div>
+ 
+{% endfor %}                
+    </div>
+</section>
+    
+<section class="u-full-width" id="awards"> 
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+            <p><span>Recognition</span></p>
+            <h2>Honours &amp Awards</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+
+{% for experience in site.awards %}
+
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ awards.date }}</h2>
+                <h4 class="institution">{{ awards.issuer }}</h4>
+            </div>
+         <div class="seven columns">
+            <h3>{{ awards.title</h3>
+        </div>
+    </div>
+{% endfor %}    
+    </div>
+
+</section>
+    
+<section class="u-full-width" id="publications"> 
+
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+        <p><span>Research Papers</span></p>
+        <h2>Publications</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+{% for experience in site.publications %}        
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ publications.date }}</h2>
+                <h4 class="institution">{{ publications.publisher }}</h4>
+            </div>
+         <div class="seven columns">
+            <h3>{{ publications.title</h3>
+        
+        <p class="authors">{{ publications.authors }}</p>
+            
+        {{ publications.content}}
+        <p><a href="{{ publications.link }}" class="button button-primary">Download</a></p>
+        </div>
+    </div>
+{% endfor %}         
+ 
+        
+    </div>
+</section>
+    
+<section class="u-full-width" id="skills"> 
+
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+        <p><span>Areas of Expertise</span></p>
+        <h2>Skills</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+ {% for experience in site.skills %}        
+    <div class="row">  
+        {% for work in skills.skills %}
+        <div class="four columns">
+            <h5>{{ skills.title }}</h5>
+        </div>
+        {% endfor %}
+        {% endfor %}
+    </div>
+
+    </section>
+
+<section class="u-full-width" id="interests"> 
+
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+        <p><span>Outside of Work</span></p>
+        <h2>Interests</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+    <div class="row">
+{% for experience in site.interests %}
+        {% for work in interest.skills %}
+        <div class="four columns">
+            <h5>{{ skills.title }}</h5>
+        </div>
+{% endfor %}        
+ 
+    </div>
+    </div>
+</section>
+ 
+<footer>
+    <div class="u-full-width" id="footer">All content Copyright Tim Klapdor 2015</div>
+</footer>
+        
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

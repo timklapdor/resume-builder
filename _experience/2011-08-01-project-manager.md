@@ -6,6 +6,4 @@ Title: "Project Manager"
 
 ---
 
-### Job Description
-
 Project Manager for the university's mLearn project.

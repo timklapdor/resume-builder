@@ -6,6 +6,4 @@ Title: "Project Lead"
 
 ---
 
-### Job Description
-
 Project Lead for the university's mLearn project.

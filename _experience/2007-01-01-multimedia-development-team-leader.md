@@ -6,6 +6,4 @@ Title: "Multimedia Development Team Leader"
 
 ---
 
-### Job Description
-
 Development work for eLearning resources including video production, web development and interactive design.

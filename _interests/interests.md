@@ -1,0 +1,10 @@
+title: "expertise"
+- interests:
+  - title: "Photography"
+    level: ""
+  - title: "International Travel"
+    level: ""
+  - title: "Obscure Music Fusions"
+    level: ""
+  - title: "Gourmet Eating"
+    level: ""

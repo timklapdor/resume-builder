@@ -1,7 +1,7 @@
 ---
 
-Period: 2000-2003 
-Institution: Charles Sturt University
-Qualification: "Associate Degree (Multimedia)"
+period: 2000-2003 
+institution: Charles Sturt University
+qualification: "Associate Degree (Multimedia)"
 
 ---

@@ -10,6 +10,14 @@ github_name:  timklapdor # your github name
 baseurl: # "" base url
 url: # "http://yourdomain.com"
 
+collections:
+- education:
+- experience:
+- profile:
+- publications:
+- portfolio:
+- skills:
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
