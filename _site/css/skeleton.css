@@ -513,7 +513,7 @@ section {
 }
 
 #header {
-    background-image: url(/images/tim-hd.jpg);
+    background-image: url(../images/tim-hd.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
