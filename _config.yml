@@ -7,8 +7,8 @@ country: Australia # your country
 email: tim.klapdor@gmail.com # your email address
 twitter_name: timklapdor # your twitter handle
 github_name:  timklapdor # your github name
-baseurl: # "" base url
-url: timklapdor.github.io # "http://yourdomain.com"
+baseurl: "/resume-builder" # "" base url
+url:  # "http://yourdomainin.com"
 
 collections:
  - education: 
