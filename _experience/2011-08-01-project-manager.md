@@ -1,8 +1,8 @@
 ---
 
-Period: "Aug 2011 - Dec 2012"
-Employer: Charles Sturt University 
-Title: "Project Manager"
+period: "Aug 2011 - Dec 2012"
+employer: Charles Sturt University 
+title: "Project Manager"
 
 ---
 

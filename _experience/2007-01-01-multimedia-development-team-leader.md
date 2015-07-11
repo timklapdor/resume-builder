@@ -1,8 +1,8 @@
 ---
 
-Period: "Jan 2007 - Dec 2009"
-Employer: Charles Sturt University 
-Title: "Multimedia Development Team Leader"
+period: "Jan 2007 - Dec 2009"
+employer: Charles Sturt University 
+title: "Multimedia Development Team Leader"
 
 ---
 

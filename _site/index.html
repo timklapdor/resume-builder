@@ -1,41 +1,78 @@
---- 
+<!DOCTYPE html>
+<html>
 
-layout: page
-description: "Technology | Design | Education"
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
----
+  <title></title>
+  <meta name="description" content="Welcome to the resume of Tim Klapdor. Tim trained as a graphic designer and has been working in higher education, originally developing eLearning resources but is now focussed on the underlying technology used in education.  
+">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="canonical" href="http://yourdomain.com/">
+  <link rel="alternate" type="application/rss+xml" title="" href="http://yourdomain.com/feed.xml" />
+ <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+</head>
+
+
+  <body>
+
+    <header class="u-full-width" id="header">
+<div class="site-title"></div>
+    <div class="site-title-text">
+        <h1 class="title">Tim Klapdor</h1>
+        <p class="tagline">Technology | Design | Education</p>
+    </div>
+    
+</header>
 
 
 
-<div class="container" align="center">  
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="container" align="center">  
 <div class="headline">
         <p><span>Who Am I?</span></p>
         <h2>Personal Details</h2>
 </div> 
-</div>  
+</div>
+<div class="container">
 
-
-{% if site.profile %}    
-{% for profile in site.profile %}
         <div class="row">
-            <div class="five columns">
+            <div class="five columns" align="left">
                 <ul class="personal-details">
-                    <li><strong>Name </strong>{{ profile.name }}</li>
-                    <li><strong>Location </strong>{{ profile.location }}</li>
-                    <li><strong>Country </strong>{{ profile.country }}</li>
-                    <li><strong>Email </strong><a href="mailto:"{{ profile.email }}>{{ profile.email }}</a></li>
-                    <li><strong>Twitter </strong><a href="https://twitter.com/{{ profile.twitter }}">@timklapdor</a></li>
+                    <li><strong>Name </strong>Tim Klapdor</li>
+                    <li><strong>Location </strong>Wagga Wagga</li>
+                    <li><strong>Country </strong>Australia</li>
+                    <li><strong>Email </strong><a href="mailto:"tim.klapdor@gmail.com>tim.klapdor@gmail.com</a></li>
+                    <li><strong>Twitter </strong><a href="https://twitter.com/@timklapdor">@timklapdor</a></li>
                 </ul>
             </div>
             
             <div class="seven columns">
         <h3>Professional Profile</h3>
-        {{ profile.content }}
+        <p>I would describe myself as an Expert Generalist with skills spanning graphic design, multimedia, web design, project leadership, visual communication, user experience, eLearning, online systems, interface design and information architecture.</p>
+
+<p>Currently I am the Online Learning Technology Leader at Charles Sturt University, where I’ve also held a variety of roles relating to the implementation, development and production of eLearning resources and systems. Previous to this I spent a number of years in commercial graphic design, working in a variety of roles in print and marketing in Australia and in Europe.</p>
+
+<p>I have a keen interest in innovation as well as developing and implementing new technologies within an educational context to enhance the learning experience. I believe that technology offers a range of unique opportunities to actualise a range of pedagogical and instructional approaches which can revolutionise the education sector. I love the challenge that new technology brings and the creative process involved in developing an idea through to implementation.</p>
+
+<p>Working at the nexus of technology and education I have developed a skill for translating ideas, concepts and goals into technological solutions that improve the user experience. I am a skilled communicator who works especially hard at being able to translate ‘tech speak’ into something tangible and understandable.</p>
+
+<p>Always open to new opportunities I have been working to establish a broad and international personal learning network and done this by working in the open, engaging in social media, writing academically, presenting at conferences and blogging extensively. At the same time I have become increasingly fluent with leadership responsibilities, large scale projects and team management. I am poised for further change and growth and ready to seize the next big opportunity.</p>
+
     </div>
     </div>
-    {% endfor %}
-{% endif %}
-    
+
+
+</div>      
 </section>
     
 <section class="u-full-width" id="experience"> 
@@ -47,24 +84,105 @@ description: "Technology | Design | Education"
     </div>
     </div>
 
-{% if site.experience %}  
-{% for experience in site.expeience %}
-    <div class="container">
+
+    <div class="container">    
+
+
     <div class="row">
             <div class="five columns">
-                <h2 class="date">{{ experience.period }}</h2>
-                <h4 class="employer">{{ experience.employer }}</h4>
+                <h2 class="date">Jan 2015 - Present</h2>
+                <h4 class="employer">Charles Sturt University</h4>
         </div>
         <div class="seven columns">
-        <h3>{{ experience.title }}</h3>
-            {{ experience.content }}
+        <h3>Online Learning Technology Leader</h3>
+            <p>Provide expert educational technology contributions to the imagination, incubation and showcasing of innovations in online learning. Establish collaborations across the University, leading to the engineering of the technologies underpinning these innovations into sustainable and widespread CSU use. Management of online learning projects, coordinate the work of Divisional and consultant technology staff, and establish and maintain uImagine’s online and social media presence.</p>
+
+    </div> 
+    </div>
+
+
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">Jan 2013 - Dec 2013</h2>
+                <h4 class="employer">Charles Sturt University</h4>
+        </div>
+        <div class="seven columns">
+        <h3>Project Lead</h3>
+            <p>Project Lead for the university’s mLearn project.</p>
+
+    </div> 
+    </div>
+
+
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">Jan 2012 - Dec 2014</h2>
+                <h4 class="employer">Charles Sturt University</h4>
+        </div>
+        <div class="seven columns">
+        <h3>Innovation Technology Officer</h3>
+            <p>I work at the nexus of Technology and Higher Education. I make, think, help, support, design, train and advise on technology and its implications and use for learning and teaching.</p>
+
+    </div> 
+    </div>
+
+
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">Aug 2011 - Dec 2012</h2>
+                <h4 class="employer">Charles Sturt University</h4>
+        </div>
+        <div class="seven columns">
+        <h3>Project Manager</h3>
+            <p>Project Manager for the university’s mLearn project.</p>
+
+    </div> 
+    </div>
+
+
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">Jan 2009 - Dec 2011</h2>
+                <h4 class="employer">Charles Sturt University</h4>
+        </div>
+        <div class="seven columns">
+        <h3>Media Technologist</h3>
+            <p>Enterprise level project work on rich media capture and delivery, mobile learning, mobile web development, open educational resources and large scale ePublishing. Managing the large scale development and production of eLearning resources for Distance Education and Internal students.</p>
+
+    </div> 
+    </div>
+
+
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">Jan 2007 - Dec 2009</h2>
+                <h4 class="employer">Charles Sturt University</h4>
+        </div>
+        <div class="seven columns">
+        <h3>Multimedia Development Team Leader</h3>
+            <p>Development work for eLearning resources including video production, web development and interactive design.</p>
+
+    </div> 
+    </div>
+
+
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">2004 - Dec 2005</h2>
+                <h4 class="employer">Sutherland Trading</h4>
+        </div>
+        <div class="seven columns">
+        <h3>Graphic Designer | Marketing</h3>
+            <p>Creation of advertising and marketing material for a European music distribution company. This included developing advertisements for national and international magazines, internal sales material and the development of a single product catalogue.</p>
+
     </div> 
     </div>
 
         
     </div>
-{% endfor %}
-{% endif %}   
+
+
+
 </section>    
 
 <section class="u-full-width" id="education"> 
@@ -77,18 +195,41 @@ description: "Technology | Design | Education"
 
     
     <div class="container">
-{% for education in site.education %}
+
+
     <div class="row">
             <div class="five columns">
-                <h2 class="date">{{ education.period }}</h2>
-                <h4 class="institution">{{education.institution }}</h4>
+                <h2 class="date">2014-2014</h2>
+                <h4 class="institution">Charles Sturt University</h4>
             </div>
          <div class="seven columns">
-            <h3>{{ education.title }}</h3>
+            <h3>Graduate Certificate in University Leadership & Management</h3>
         </div>
     </div>
  
-{% endfor %}                
+
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">2006-2006</h2>
+                <h4 class="institution">Charles Sturt University</h4>
+            </div>
+         <div class="seven columns">
+            <h3>Bachelor Arts (Graphic Design)</h3>
+        </div>
+    </div>
+ 
+
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">2000-2003</h2>
+                <h4 class="institution">Charles Sturt University</h4>
+            </div>
+         <div class="seven columns">
+            <h3>Associate Degree (Multimedia)</h3>
+        </div>
+    </div>
+ 
+                
     </div>
 </section>
     
@@ -102,18 +243,40 @@ description: "Technology | Design | Education"
     
     <div class="container">
 
-{% for awards in site.awards %}
 
     <div class="row">  
         <div class="five columns">
-                <h2 class="date">{{ awards.date }}</h2>
-                <h4 class="institution">{{ awards.issuer }}</h4>
+                <h2 class="date">Jul 2014</h2>
+                <h4 class="institution">Charles Sturt University</h4>
             </div>
          <div class="seven columns">
-            <h3>{{ awards.title</h3>
+            <h3>Vice-Chancellor’s Awards For Leadership Excellence</h3>
         </div>
     </div>
-{% endfor %}    
+
+
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">Nov 2012</h2>
+                <h4 class="institution">Australia and New Zealand Mobile Learning Group</h4>
+            </div>
+         <div class="seven columns">
+            <h3>Best Project Award 2012</h3>
+        </div>
+    </div>
+
+
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">Nov 2012</h2>
+                <h4 class="institution">Ascilite</h4>
+            </div>
+         <div class="seven columns">
+            <h3>Acilite 2012 Mentoring Program</h3>
+        </div>
+    </div>
+
+    
     </div>
 
 </section>
@@ -128,22 +291,93 @@ description: "Technology | Design | Education"
     </div>
     
     <div class="container">
-{% for publications in site.publications %}        
+        
+        
     <div class="row">  
         <div class="five columns">
-                <h2 class="date">{{ publications.date }}</h2>
-                <h4 class="institution">{{ publications.publisher }}</h4>
+                <h2 class="date">Nov 2013</h2>
+                <h4 class="institution">Ascilite 2013 Conference Proceeding</h4>
             </div>
          <div class="seven columns">
-            <h3>{{ publications.title</h3>
+            <h3>Mobile Learning at Charles Sturt University: Lessons learned from university-wide iPad trials in 2012</h3>
         
-        <p class="authors">{{ publications.authors }}</p>
+        <p class="authors">Tim Klapdor, Philip Uys</p>
             
-        {{ publications.content}}
-        <p><a href="{{ publications.link }}" class="button button-primary">Download</a></p>
+        <p>The mLearn Project at Charles Sturt University (CSU) started in 2011 as an initiative to explore mobile learning and its application and potential for the institution. This paper provides a meta-perspective of one particular aspect of the project, a series of university-wide device trials, and describes what took place, the initial findings, discussions related to mobile and the key recommendations from the project. The project has provided a way for the university to explore new technology within its specific and unique learning and teaching contexts. It has provided real world experiences from which to learn and through exploration a better understanding of our present has been reached. This paper is an attempt to share the examples and experiences and provide a basis to imagine our future direction.</p>
+
+        <p><a href="http://www.ascilite.org.au/conferences/sydney13/program/papers/Klapdor.php" class="button button-primary">Download</a></p>
         </div>
     </div>
-{% endfor %}         
+        
+        
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">Nov 2013</h2>
+                <h4 class="institution">Ascilite 2013 Conference Proceeding</h4>
+            </div>
+         <div class="seven columns">
+            <h3>Metamorphosis and Adaptive Digital Publishing</h3>
+        
+        <p class="authors">Rob Stone, Tim Klapdor, Tyswan Slater, Rod Haggith</p>
+            
+        <p>This paper aims to explore the conceptual work being undertaken at Charles Sturt University to develop The Adaptive Digital Publishing Engine (TADPOLE). The aim of the project is to envision a distinct way of creating, structuring and publishing educational resources for delivery to a wide variety of platforms and media. The development of TADPOLE will allow us explore a 21st century approach to publishing that embraces digital affordances and uses metamorphosis, rather than translation or transcription, to convert content from one format to another.</p>
+
+        <p><a href="http://www.ascilite.org.au/conferences/sydney13/program/papers/Stone.php" class="button button-primary">Download</a></p>
+        </div>
+    </div>
+        
+        
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">Nov 2012</h2>
+                <h4 class="institution">Ascilite 2012 Conference Proceeding</h4>
+            </div>
+         <div class="seven columns">
+            <h3>Mobility makes us agile and lean: A new paradigm for institutional projects</h3>
+        
+        <p class="authors">Tim Klapdor</p>
+            
+        <p>The mLearn Project at Charles Sturt University (CSU) is an attempt to establish a new philosophy for large-scale institutional initiatives that borrows aspects from the technology companies based out of Silicon Valley. This paper will outline the concepts that have been adopted as well as the rationale for this change in tact. The project is running in 2012 and into 2013 over three teaching sessions and it is hoped will foster innovation through trials of technology, mobilising system access and developing mobile enhanced learning resources. Findings and reflections from the project will be published over the next 18 months.</p>
+
+        <p><a href="https://www.researchgate.net/publication/234308095_Mobility_makes_us_agile_and_lean_A_new_paradigm_for_institutional_projects?ev=prf_pub" class="button button-primary">Download</a></p>
+        </div>
+    </div>
+        
+        
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">Nov 2012</h2>
+                <h4 class="institution">Ascilite 2012 Conference Proceeding</h4>
+            </div>
+         <div class="seven columns">
+            <h3>Conducting and Reporting on Educational Technology Research for Institutional Impact</h3>
+        
+        <p class="authors">Harriet Ridolfo, Susan Tull, Lynette Nagel, Janette Kruger, Sue Gregory, Tim Klapdor, Philip Uys</p>
+            
+        <p>The advance of educational technology coupled with competitive forces, ever-increasing digitisation, and new entrants into the Higher Education sector, has created an environment of constant change for those working within it. This paper discusses how seven people, in five institutions across three countries joined forces to develop their knowledge, skill and ability in conducting and reporting on educational technology research for institutional impact. Reviewed in this paper are a range of approaches adopted across the different institutions, considerations of which of these have been effective and examination of whether targeted communication strategies have helped overcome inherent barriers.</p>
+
+        <p><a href="http://www.researchgate.net/publication/234130403_Conducting_and_Reporting_on_Educational_Technology_Research_for_Institutional_Impact" class="button button-primary">Download</a></p>
+        </div>
+    </div>
+        
+        
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">Jun 2012</h2>
+                <h4 class="institution">Gold e-Book ehealth and tele-education, University Hospital Pedro Ernesto of State University of Rio de Janeiro</h4>
+            </div>
+         <div class="seven columns">
+            <h3>Mobile Learning in eHealth: Increasing Learning Options by Supporting the Mobility of Learners in Developing Contexts</h3>
+        
+        <p class="authors">Philip Uys, James Brann, Tim Klapdor, Megan Smith</p>
+            
+        <p>The advance of educational technology coupled with competitive forces, ever-increasing digitisation, and new entrants into the Higher Education sector, has created an environment of constant change for those working within it. This paper discusses how seven people, in five institutions across three countries joined forces to develop their knowledge, skill and ability in conducting and reporting on educational technology research for institutional impact. Reviewed in this paper are a range of approaches adopted across the different institutions, considerations of which of these have been effective and examination of whether targeted communication strategies have helped overcome inherent barriers.</p>
+
+        <p><a href="http://www.telessaude.uerj.br/goldbook" class="button button-primary">Download</a></p>
+        </div>
+    </div>
+        
+         
  
         
     </div>
@@ -159,14 +393,8 @@ description: "Technology | Design | Education"
     </div>
     
     <div class="container">
- {% for sklls in site.skills %}        
-    <div class="row">  
-        {% for work in skills.skills %}
-        <div class="four columns">
-            <h5>{{ skills.title }}</h5>
-        </div>
-        {% endfor %}
-        {% endfor %}
+        
+ 
     </div>
 
     </section>
@@ -183,19 +411,35 @@ description: "Technology | Design | Education"
     <div class="container">
         
     <div class="row">
-{% for interests in site.interests %}
-        {% for work in interest.skills %}
-        <div class="four columns">
-            <h5>{{ skills.title }}</h5>
-        </div>
-{% endfor %}        
- 
+        
+   
     </div>
     </div>
 </section>
  
 <footer>
     <div class="u-full-width" id="footer">All content Copyright Tim Klapdor 2015</div>
+    <div class="container"><p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+        </div>
 </footer>
-        
-<!-- End Document
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+
+      <div class="container">
+        <p class="text">Welcome to the resume of Tim Klapdor. Tim trained as a graphic designer and has been working in higher education, originally developing eLearning resources but is now focussed on the underlying technology used in education.  
+</p>
+      </div>
+   
+</footer>
+
+
+  </body>
+
+</html>

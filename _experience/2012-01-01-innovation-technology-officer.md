@@ -1,8 +1,8 @@
 ---
 
-Period: "Jan 2012 - Dec 2013"
-Employer: Charles Sturt University 
-Title: "Innovation Technology Officer"
+period: "Jan 2012 - Dec 2014"
+employer: Charles Sturt University 
+title: "Innovation Technology Officer"
 
 ---
 

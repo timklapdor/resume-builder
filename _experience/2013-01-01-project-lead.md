@@ -1,8 +1,8 @@
 ---
 
-Period: "Jan 2013 - Dec 2013"
-Employer: Charles Sturt University 
-Title: "Project Lead"
+period: "Jan 2013 - Dec 2013"
+employer: Charles Sturt University 
+title: "Project Lead"
 
 ---
 

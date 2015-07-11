@@ -1,8 +1,8 @@
 ---
 
-Peried: "Jan 2015 - Present"
-Employer: Charles Sturt University
-Title: "Online Learning Technology Leader"
+period: "Jan 2015 - Present"
+employer: Charles Sturt University
+title: "Online Learning Technology Leader"
 
 ---
 

@@ -1,24 +1,17 @@
---- 
-
-layout: page
-description: "Technology | Design | Education"
-
 ---
-
-
+layout: default
+---
 
 <div class="container" align="center">  
 <div class="headline">
         <p><span>Who Am I?</span></p>
         <h2>Personal Details</h2>
 </div> 
-</div>  
-
-
-    
+</div>
+<div class="container">
 {% for profile in site.profile %}
         <div class="row">
-            <div class="five columns">
+            <div class="five columns" align="left">
                 <ul class="personal-details">
                     <li><strong>Name </strong>{{ profile.name }}</li>
                     <li><strong>Location </strong>{{ profile.location }}</li>
@@ -33,8 +26,9 @@ description: "Technology | Design | Education"
         {{ profile.content }}
     </div>
     </div>
-    {% endfor %}
-    
+
+{% endfor %}
+</div>      
 </section>
     
 <section class="u-full-width" id="experience"> 
@@ -46,8 +40,10 @@ description: "Technology | Design | Education"
     </div>
     </div>
 
-{% for experience in site.expeience %}
-    <div class="container">
+
+    <div class="container">    
+{% for experience in site.experience reversed %}
+
     <div class="row">
             <div class="five columns">
                 <h2 class="date">{{ experience.period }}</h2>
@@ -58,11 +54,12 @@ description: "Technology | Design | Education"
             {{ experience.content }}
     </div> 
     </div>
-
+{% endfor %}
         
     </div>
-{% endfor %}
-   
+
+
+
 </section>    
 
 <section class="u-full-width" id="education"> 
@@ -75,11 +72,12 @@ description: "Technology | Design | Education"
 
     
     <div class="container">
-{% for education in site.education %}
+
+{% for education in site.education reversed %}
     <div class="row">
             <div class="five columns">
                 <h2 class="date">{{ education.period }}</h2>
-                <h4 class="institution">{{education.institution }}</h4>
+                <h4 class="institution">{{ education.institution }}</h4>
             </div>
          <div class="seven columns">
             <h3>{{ education.title }}</h3>
@@ -100,17 +98,17 @@ description: "Technology | Design | Education"
     
     <div class="container">
 
-{% for awards in site.awards %}
-
+{% for award in site.award reversed %}
     <div class="row">  
         <div class="five columns">
-                <h2 class="date">{{ awards.date }}</h2>
-                <h4 class="institution">{{ awards.issuer }}</h4>
+                <h2 class="date">{{ award.date }}</h2>
+                <h4 class="institution">{{ award.issuer }}</h4>
             </div>
          <div class="seven columns">
-            <h3>{{ awards.title</h3>
+            <h3>{{ award.title }}</h3>
         </div>
     </div>
+
 {% endfor %}    
     </div>
 
@@ -126,14 +124,15 @@ description: "Technology | Design | Education"
     </div>
     
     <div class="container">
-{% for publications in site.publications %}        
+        
+{% for publications in site.publications reversed %}        
     <div class="row">  
         <div class="five columns">
                 <h2 class="date">{{ publications.date }}</h2>
                 <h4 class="institution">{{ publications.publisher }}</h4>
             </div>
          <div class="seven columns">
-            <h3>{{ publications.title</h3>
+            <h3>{{ publications.title }}</h3>
         
         <p class="authors">{{ publications.authors }}</p>
             
@@ -141,6 +140,7 @@ description: "Technology | Design | Education"
         <p><a href="{{ publications.link }}" class="button button-primary">Download</a></p>
         </div>
     </div>
+        
 {% endfor %}         
  
         
@@ -157,14 +157,18 @@ description: "Technology | Design | Education"
     </div>
     
     <div class="container">
+        
  {% for sklls in site.skills %}        
     <div class="row">  
+        
         {% for work in skills.skills %}
         <div class="four columns">
             <h5>{{ skills.title }}</h5>
         </div>
+        
         {% endfor %}
-        {% endfor %}
+
+{% endfor %}
     </div>
 
     </section>
@@ -181,19 +185,25 @@ description: "Technology | Design | Education"
     <div class="container">
         
     <div class="row">
+        
 {% for interests in site.interests %}
         {% for work in interest.skills %}
         <div class="four columns">
             <h5>{{ skills.title }}</h5>
         </div>
-{% endfor %}        
- 
+        
+{% endfor %}  
+
+{% endfor %}   
     </div>
     </div>
 </section>
  
 <footer>
     <div class="u-full-width" id="footer">All content Copyright Tim Klapdor 2015</div>
+    <div class="container"><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        </div>
 </footer>
-        
-<!-- End Document
+
+
+</div>

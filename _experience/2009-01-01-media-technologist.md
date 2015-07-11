@@ -1,8 +1,8 @@
 ---
 
-Period: "Jan 2009 - Dec 2011"
-Employer: Charles Sturt University 
-Title: "Media Technologist"
+period: "Jan 2009 - Dec 2011"
+employer: Charles Sturt University 
+title: "Media Technologist"
 
 ---
 
