@@ -158,9 +158,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+    color: #8b563F; 
+    text-decoration: none;
+}
 a:hover {
-  color: #0FA0CE; }
+  color: #354247; }
 
 
 /* Buttons
@@ -206,8 +208,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #8b563F;
+  border-color: #8b563F; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -219,8 +221,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #D9B3A1;
+  border-color: #D9B3A1; }
 
 
 /* Forms
@@ -470,7 +472,6 @@ there.
             list-style: none;
         }
 
-    .personal-details li a { color: #252525; }
 
     .personal-details li:first-child { padding-top: 0; }
 
@@ -508,6 +509,7 @@ section {
 }
 
 #footer {
+    margin-top: 50px;
     padding: 50px;
     text-align: center;
 }
@@ -523,6 +525,8 @@ section {
     position: relative;
     color: #fff;
 }
+
+/* uses this fix http://stackoverflow.com/questions/1762539/margin-on-child-element-moves-parent-element */
 
 .site-title {
     padding-top: 1px;
@@ -542,7 +546,7 @@ section {
     line-height: 8rem;
 }
 
-.site-title-text p {
+.site-title-text p{
     font-size: 3rem;
     font-weight: 400;
     line-height: 10rem:
@@ -550,6 +554,7 @@ section {
     text-transform: uppercase
         
 }
+
 /*.feature-image { 
     position: absolute;
     width: 100%;

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>[]</title>
+    <title>Tim Klapdor</title>
     <description>Welcome to the resume of Tim Klapdor. Tim trained as a graphic designer and has been working in higher education, originally developing eLearning resources but is now focussed on the underlying technology used in education.  
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Jul 2015 22:43:59 +1000</pubDate>
-    <lastBuildDate>Sat, 11 Jul 2015 22:43:59 +1000</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2015 00:37:33 +1000</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2015 00:37:33 +1000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
