@@ -2,7 +2,7 @@
 
 Title: "Mobility makes us agile and lean: A new paradigm for institutional projects"
 Authors: "Tim Klapdor"
-Ascilite 2012 Conference Proceeding
+publisher: Ascilite 2012 Conference Proceeding
 Date: Nov 2012
 Link: https://www.researchgate.net/publication/234308095_Mobility_makes_us_agile_and_lean_A_new_paradigm_for_institutional_projects?ev=prf_pub
 

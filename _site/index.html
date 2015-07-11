@@ -1,14 +1,11 @@
 --- 
-layout: default 
+
+layout: page
+description: "Technology | Design | Education"
+
 ---
 
-<section class="u-full-width" id="header" style="-webkit-transform: translate3d(0px, 0px, 0px) opacity: 1;">
 
-    <div class="site-title">
-        <h1 class="title">Tim Klapdor</h1>
-        <p class="tagline">Technology | Design | Education</p>
-    </div> 
-</section>
 
 <div class="container" align="center">  
 <div class="headline">
@@ -18,7 +15,7 @@ layout: default
 </div>  
 
 
-    
+{% if site.profile %}    
 {% for profile in site.profile %}
         <div class="row">
             <div class="five columns">
@@ -37,6 +34,7 @@ layout: default
     </div>
     </div>
     {% endfor %}
+{% endif %}
     
 </section>
     
@@ -49,6 +47,7 @@ layout: default
     </div>
     </div>
 
+{% if site.experience %}  
 {% for experience in site.expeience %}
     <div class="container">
     <div class="row">
@@ -65,7 +64,7 @@ layout: default
         
     </div>
 {% endfor %}
-   
+{% endif %}   
 </section>    
 
 <section class="u-full-width" id="education"> 

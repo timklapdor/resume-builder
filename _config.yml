@@ -1,22 +1,31 @@
 # Site settings
-name: "Tim Klapdor" # your name
+title: "Tim Klapdor" # your name
 description: "Technology | Design | Education" # your personal tagline 
 header-img: images/tim-hd.jpg # image in header
-city: Wagga Wagga # your city
-country: Australia # your country
-email: tim.klapdor@gmail.com # your email address
 twitter_name: timklapdor # your twitter handle
 github_name:  timklapdor # your github name
 baseurl: "/resume-builder" # "" base url
 url:  # "http://yourdomainin.com"
 
 collections:
- - education: 
- - experience:
- - interests:
- - portfolio:
- - publications:
- - profile:
+    education: 
+        output: true
+        title: Education
+    experience:
+        output: true
+        title: Experience
+    interests:
+        output: true
+        title: Interest
+    portfolio:
+        output: true
+        title: Potrtfolio
+    publications:
+        output: true
+        title: Publication
+    profile:
+        output: true
+        title: Profile
 
 # Build settings
 markdown: kramdown
