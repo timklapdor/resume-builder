@@ -505,7 +505,7 @@ section {
 }
 
 .authors {
-    text-emphasis: 
+ font-style: italic;
 }
 
 #footer {

@@ -1,5 +1,6 @@
 # Site settings
 title: "Tim Klapdor"
+tagline: "Technology | Design | Education"
 email: tim.klapdor@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to the resume of Tim Klapdor. Tim trained as a graphic designer and has been working in higher education, originally developing eLearning resources but is now focussed on the underlying technology used in education.  
@@ -7,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://timklapdor.com" # the base hostname & protocol for your site
 twitter_username: timklapdor
 github_username:  timklapdor
+
 
 
 # Collections
