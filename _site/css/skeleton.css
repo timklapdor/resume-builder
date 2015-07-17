@@ -162,7 +162,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-  color: #354247; }
+    color: #13a7c7; }
 
 
 /* Buttons
@@ -221,8 +221,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #D9B3A1;
-  border-color: #D9B3A1; }
+  background-color: #13a7c7;
+  border-color: #13a7c7; }
 
 
 /* Forms
@@ -478,7 +478,7 @@ there.
     .personal-details li:last-child { border-bottom: none; }
 
 #experience, #awards, #skills {
-    background-color: #aaaaaa;
+    background-color:  #aaaaaa;
     color: #ffffff;
 }
 

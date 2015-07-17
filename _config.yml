@@ -38,6 +38,13 @@ collections:
         output: true
         title: Skills
 
+# Colour Configuration
+
+colour: 
+    primary: 8b563F # sets the primary link colour
+    secondary: 13a7c7 # sets the hover colour
+    alternatestripe: aaaaaa # sets the alternate background stripe
+
 # Build settings
 markdown: kramdown
 highlighter: pygments

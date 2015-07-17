@@ -1,3 +1,7 @@
+---
+# nothing to see
+---
+
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -158,11 +162,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-    color: #8b563F; 
+    color: #{{ site.colour.primary }}; 
     text-decoration: none;
 }
 a:hover {
-  color: #354247; }
+    color: #{{ site.colour.secondary }}; }
 
 
 /* Buttons
@@ -208,8 +212,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #8b563F;
-  border-color: #8b563F; }
+  background-color: #{{ site.colour.primary }};
+  border-color: #{{ site.colour.primary }}; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -221,8 +225,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #D9B3A1;
-  border-color: #D9B3A1; }
+  background-color: #{{ site.colour.secondary }};
+  border-color: #{{ site.colour.secondary }}; }
 
 
 /* Forms
@@ -478,12 +482,12 @@ there.
     .personal-details li:last-child { border-bottom: none; }
 
 #experience, #awards, #skills {
-    background-color: #aaaaaa;
+    background-color:  #{{ site.colour.alternatestripe }};
     color: #ffffff;
 }
 
 #experience .headline p span, #awards .headline p span, #skills .headline p span  {
-    background-color: #aaaaaa;
+    background-color: #{{ site.colour.alternatestripe }};
 }
 
 .five.columns h2 {
