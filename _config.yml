@@ -1,13 +1,12 @@
 # Site settings
-title: "Tim Klapdor"
-tagline: "Technology | Design | Education"
-email: tim.klapdor@gmail.com
+title: "Christian Surname"
+tagline: "Resume Builder"
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to the resume of Tim Klapdor. Tim trained as a graphic designer and has been working in higher education, originally developing eLearning resources but is now focussed on the underlying technology used in education.  
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://timklapdor.com" # the base hostname & protocol for your site
+  Welcome to the Resume Builder. Tim trained as a graphic designer and has been working in higher education, originally developing eLearning resources but is now focussed on the underlying technology used in education.  
+baseurl: "/resume-builder" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
 
-# Collections
+# Collections-builder
 collections:
     award:
         output: true
@@ -37,10 +36,10 @@ collections:
 # Colour Configuration
 
 colour: 
-    primary: 8b563F # sets the primary link colour
-    secondary: 354257 # sets the hover colour
+    primary: FF9800 # sets the primary link colour
+    secondary: 7E8AA2 # sets the hover colour
     text: 1a1a1a # sets text colour
-    alternatestripe: aaaaaa # sets the alternate background stripe
+    alternatestripe: 263248 # sets the alternate background stripe
 
 # Build settings
 markdown: kramdown

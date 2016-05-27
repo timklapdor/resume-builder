@@ -1,9 +1,9 @@
 ---
 
 period: "Aug 2011 - Dec 2012"
-employer: Charles Sturt University 
+employer: 4th Employer 
 title: "Project Manager"
 
 ---
 
-Project Manager for the university's mLearn project.
+Project Manager for a company project.

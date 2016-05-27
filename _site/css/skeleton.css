@@ -158,11 +158,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-    color: #8b563F; 
+    color: #FF9800; 
     text-decoration: none;
 }
 a:hover {
-    color: #354257; }
+    color: #7E8AA2; }
 
 
 /* Buttons
@@ -208,8 +208,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #8b563F;
-  border-color: #8b563F; }
+  background-color: #FF9800;
+  border-color: #FF9800; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -221,8 +221,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #354257;
-  border-color: #354257; }
+  background-color: #7E8AA2;
+  border-color: #7E8AA2; }
 
 
 /* Forms
@@ -478,12 +478,12 @@ there.
     .personal-details li:last-child { border-bottom: none; }
 
 #experience, #awards, #skills {
-    background-color:  #aaaaaa;
+    background-color:  #263248;
     color: #ffffff;
 }
 
 #experience .headline p span, #awards .headline p span, #skills .headline p span  {
-    background-color: #aaaaaa;
+    background-color: #263248;
 }
 
 .five.columns h2 {
@@ -515,7 +515,7 @@ section {
 }
 
 #header {
-    background-image: url(../images/tim-hd.jpg);
+    background-image: url(../images/2-squawk_24394345845_o.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
