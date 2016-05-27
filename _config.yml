@@ -1,8 +1,7 @@
 # Site settings
 title: "Christian Surname"
 tagline: "Resume Builder"
-description: > # this means to ignore newlines until "baseurl:"
-  Welcome to the Resume Builder. Tim trained as a graphic designer and has been working in higher education, originally developing eLearning resources but is now focussed on the underlying technology used in education.  
+description: "Welcome to the Resume Builder. You can create your own resume by adding a few markdown files, tweaking values in a a config file and changing some CSS"  
 baseurl: "/resume-builder" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
 
@@ -27,7 +26,7 @@ collections:
         output: true
         title: Publication
     profile:
-        output: true
+        output: false #feature not built yet... coming soon
         title: Profile
     skills:
         output: true
@@ -40,6 +39,8 @@ colour:
     secondary: 7E8AA2 # sets the hover colour
     text: 1a1a1a # sets text colour
     alternatestripe: 263248 # sets the alternate background stripe
+    
+bgimage: "2-squawk_24394345845_o.jpg" # set hero image here. add file name and place in Images folder
 
 # Build settings
 markdown: kramdown
