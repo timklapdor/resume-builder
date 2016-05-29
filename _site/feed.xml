@@ -5,8 +5,8 @@
     <description>Welcome to the Resume Builder. You can create your own resume by adding a few markdown files, tweaking values in a a config file and changing some CSS</description>
     <link>/resume-builder/</link>
     <atom:link href="/resume-builder/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 May 2016 22:53:41 +1000</pubDate>
-    <lastBuildDate>Fri, 27 May 2016 22:53:41 +1000</lastBuildDate>
+    <pubDate>Fri, 27 May 2016 22:56:02 +1000</pubDate>
+    <lastBuildDate>Fri, 27 May 2016 22:56:02 +1000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
   </channel>

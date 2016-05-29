@@ -44,6 +44,6 @@ bgimage: "2-squawk_24394345845_o.jpg" # set hero image here. add file name and p
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
