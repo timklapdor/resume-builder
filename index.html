@@ -8,11 +8,19 @@ layout: default
         <h2>Personal Details</h2>
 </div> 
 </div>
+
+<!-- Profile Section 
+____________________________________________
+_________________________________________ -->
+
 <div class="container">
 {% for profile in site.profile %}
         <div class="row">
             <div class="five columns" align="left">
                 <ul class="personal-details">
+
+<!-- Each of these refers to the YAML frontend of the profile.md file. You can create your own or edit these to suit -->
+
                     <li><strong>Name </strong>{{ profile.name }}</li>
                     <li><strong>Location </strong>{{ profile.location }}</li>
                     <li><strong>Country </strong>{{ profile.country }}</li>
@@ -34,9 +42,10 @@ layout: default
 
 {% endfor %}
 </div>      
-</section>
     
 <section class="u-full-width" id="experience"> 
+
+<!-- Info below is the section heading and tagline -->
    
     <div class="container" align="center">  
     <div class="headline" align="center">
@@ -49,12 +58,17 @@ layout: default
     <div class="container">    
 {% for experience in site.experience reversed %}
 
+<!-- Info below is drawn in from the YAML front end -->
+        
     <div class="row">
             <div class="five columns">
                 <h2 class="date">{{ experience.period }}</h2>
                 <h4 class="employer">{{ experience.employer }}</h4>
         </div>
         <div class="seven columns">
+            
+<!-- Info below is drawn in from the YAML title: and the content from the actual .md -->
+            
         <h3>{{ experience.title }}</h3>
             {{ experience.content }}
     </div> 
@@ -106,7 +120,7 @@ layout: default
 {% for award in site.award reversed %}
     <div class="row">  
         <div class="five columns">
-                <h2 class="date">{{ award.date }}</h2>
+                <h2 class="date">{{ award.issued }}</h2>
                 <h4 class="institution">{{ award.issuer }}</h4>
             </div>
          <div class="seven columns">
@@ -133,7 +147,7 @@ layout: default
 {% for publications in site.publications reversed %}        
     <div class="row">  
         <div class="five columns">
-                <h2 class="date">{{ publications.date }}</h2>
+                <h2 class="date">{{ publications.published-date }}</h2>
                 <h4 class="institution">{{ publications.publisher }}</h4>
             </div>
          <div class="seven columns">

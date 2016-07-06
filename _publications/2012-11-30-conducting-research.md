@@ -3,7 +3,7 @@
 title: "Doing a Research Project"
 authors: "Christian Surname, Anothery Guy, Someone Else"
 publisher: A Fancy Journal
-date: Nov 2012
+published-date: Nov 2012
 link: "#"
 
 ---

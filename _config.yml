@@ -8,28 +8,25 @@ baseurl: "/resume-builder" # the subpath of your site, e.g. /blog/
 # Collections-builder
 collections:
     award:
-        output: true
+        output: false
         title: Award
     education: 
-        output: true
+        output: false
         title: Education
     experience:
-        output: true
+        output: false
         title: Experience
     interests:
-        output: true
+        output: false
         title: Interest
-    portfolio:
-        output: true
-        title: Potrtfolio
     publications:
         output: true
         title: Publication
     profile:
-        output: false #feature not built yet... coming soon
+        output: false
         title: Profile
     skills:
-        output: true
+        output: false
         title: Skills
 
 # Colour Configuration

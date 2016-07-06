@@ -229,68 +229,6 @@ input[type="button"].button-primary:focus {
   border-color: #{{ site.colour.secondary }}; }
 
 
-/* Forms
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box; }
-/* Removes awkward default styles on some inputs for iOS */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none; }
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px; }
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0; }
-label,
-legend {
-  display: block;
-  margin-bottom: .5rem;
-  font-weight: 600; }
-fieldset {
-  padding: 0;
-  border-width: 0; }
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline; }
-label > .label-body {
-  display: inline-block;
-  margin-left: .5rem;
-  font-weight: normal; }
-
-
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
@@ -428,67 +366,56 @@ there.
     margin-top: 30px;
     padding-top: 15px;
 }
-	.headline {
-		position: relative;
-		display: inline-block;
-		border: 1px solid;
-		margin: 40px 0px 40px 0px;
-		font: 12px 'PT Sans', sans-serif;
-		line-height: 20px;
-		text-align: center; 
-	}
-	
-	.headline h1 {
-		padding: 10px 15px;	
-		margin-bottom: 0;
-		text-transform: uppercase;
-		line-height: 53px;
-	}
-	
-	.headline h2 {
-		padding: 30px 40px;	
-		margin-bottom: 0;
-		text-transform: uppercase;
-		line-height: 28x;
-	}
-	
-	.headline p {
-		position: absolute;
-		top: -10px;
-		right: 0;
-		left: 0;
-		letter-spacing: 1px;
-        text-transform: uppercase;
-	}
-	
-	.headline p span {
-		padding: 0 10px;
-		background-color: #fff; 
-	}
 
-
-
-
-    .personal-details li {
-            padding: 9px 0; 
-            border-bottom: 1px solid #e1e1e1;
-            color: #252525;
-            list-style: none;
-        }
-
-
-    .personal-details li:first-child { padding-top: 0; }
-
-    .personal-details li:last-child { border-bottom: none; }
-
-#experience, #awards, #skills {
-    background-color:  #{{ site.colour.alternatestripe }};
-    color: #ffffff;
+.headline {
+    position: relative;
+    display: inline-block;
+    border: 1px solid;
+    margin: 40px 0px 40px 0px;
+    font: 12px 'PT Sans', sans-serif;
+    line-height: 20px;
+    text-align: center; 
 }
 
-#experience .headline p span, #awards .headline p span, #skills .headline p span  {
-    background-color: #{{ site.colour.alternatestripe }};
+.headline h1 {
+    padding: 10px 15px;	
+    margin-bottom: 0;
+    text-transform: uppercase;
+    line-height: 53px;
 }
+
+.headline h2 {
+    padding: 30px 40px;	
+    margin-bottom: 0;
+    text-transform: uppercase;
+    line-height: 28x;
+}
+
+.headline p {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    left: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.headline p span {
+    padding: 0 10px;
+    background-color: #fff; 
+}
+
+.personal-details li {
+    padding: 9px 0; 
+    border-bottom: 1px solid #e1e1e1;
+    color: #252525;
+    list-style: none;
+}
+
+.personal-details li:first-child { padding-top: 0; }
+
+.personal-details li:last-child { border-bottom: none; }
+
 
 .five.columns h2 {
     text-transform: uppercase;
@@ -518,18 +445,6 @@ section {
     text-align: center;
 }
 
-#header {
-    background-image: url(../images/{{ site.bgimage }});
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center top;
-    min-height: 100vh;
-    position: relative;
-    color: #fff;
-}
-
 /* uses this fix http://stackoverflow.com/questions/1762539/margin-on-child-element-moves-parent-element */
 
 .site-title {
@@ -557,4 +472,33 @@ section {
     margin-top: -30px;
     text-transform: uppercase
         
+}
+
+/* Alternate Row Colouring 
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+#experience, #awards, #skills {
+    background-color:  #{{ site.colour.alternatestripe }};
+    color: #ffffff;
+}
+
+#experience .headline p span, #awards .headline p span, #skills .headline p span  {
+    background-color: #{{ site.colour.alternatestripe }};
+}
+
+
+
+/* Header Image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#header {
+    background-image: url(../images/{{ site.bgimage }});
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center top;
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
 }
